@@ -1,5 +1,9 @@
 package com.cxf.rest.vo;
 
+/**
+ * @author Amol
+ *
+ */
 public class Book {
 	
 	private String id;
