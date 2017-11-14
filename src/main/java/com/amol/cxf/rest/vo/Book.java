@@ -1,4 +1,4 @@
-package com.cxf.rest.vo;
+package com.amol.cxf.rest.vo;
 
 /**
  * @author Amol

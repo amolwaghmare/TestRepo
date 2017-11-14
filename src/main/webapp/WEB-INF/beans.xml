@@ -15,7 +15,7 @@
  
   <import resource="classpath:META-INF/cxf/cxf.xml" />
   <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
-  <context:component-scan base-package="com.cxf.rest" />
+  <context:component-scan base-package="com.amol" />
   
       <cxf:bus>
         <cxf:features>
@@ -34,5 +34,5 @@
 		</jaxrs:providers>
   </jaxrs:server>
  
-  <bean id="bookServiceBean" class="com.cxf.rest.service.BookServiceImpl" />
+  <bean id="bookServiceBean" class="com.amol.cxf.rest.service.BookServiceImpl" />
 </beans>
